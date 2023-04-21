@@ -5,5 +5,3 @@ matplotlib
 seaborn
 tabulate
 Flask
-os
-base64
