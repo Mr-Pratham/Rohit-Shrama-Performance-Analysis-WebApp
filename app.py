@@ -15,7 +15,7 @@ test_data = pd.read_csv('TEST.csv')
 ipl_data = pd.read_csv('IPL.csv')
 
 app = Flask(__name__)
-
+server = app.server
 
 @app.route('/')
 def index():
